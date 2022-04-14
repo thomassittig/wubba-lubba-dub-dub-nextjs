@@ -1,10 +1,9 @@
-import { CharacterLocation } from "rickmortyapi/dist/interfaces";
 import { ResourceBase } from "./base.model";
 
 export interface Episode extends ResourceBase {
   air_date: string;
   episode: string;
-  character: string[];
+  characters: string[];
 }
 
 /**
